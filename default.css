@@ -1,0 +1,50 @@
+
+*{
+    font-family: "Signika", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+    max-height: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    height: 10px;
+    max-height: 10px;
+}
+
+button{
+    background: transparent;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+:root{
+ --body-background-color: #210E09;
+ --text-color: #fff;
+ --text-border-background-color: #D5621D;
+ --text-border-background-color-opacity: rgba(213, 98, 29, 0.1)
+}

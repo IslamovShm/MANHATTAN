@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- styles links -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="default.css">
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- js script -->
+    <script defer src="index.js"></script>
+
+    <title>MANHATTAN</title>
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header class="header">
+    <a href="/" class="header_logo"> <img src="assets/logo.svg" alt="logo"> </a>
+
+    <nav class="header_navbar">
+        <a href="#main">Главная</a>
+        <a href="#menu">Меню</a>
+        <a href="afisha.html">Афиша</a>
+        <a href="#contacts">Контакты</a>
+        <a href="aboutUs.html">О нас</a>
+        <a href="" class="header_reservation-navbar">Бронирование</a>
+    </nav>
+
+    <a href="" class="header_reservation">Бронирование</a>
+
+    <button id="menu-btn" type="button" class="fas fa-bars icons"></button>
+</header>
+
+<!-- header section ends -->
+
+<!-- section banner and news starts -->
+
+<section class="banner_news" id="main">
+
+    <div class="banner_block">
+        <div class="banner_inf-block">
+            <p class="banner_inf">Since 1996</p>
+            <h2 class="banner_title">True. Fontanka. Underground.</h2>
+        </div>
+    </div>
+
+    <div class="news_block">
+
+        <div class="news_tabs-block">
+            <button type="button" class="news_tabs-button active_button">Ближайшие</button>
+            <button type="button" class="news_tabs-button">скоро</button>
+        </div>
+
+        <div class="news_wrapper-block">
+            <div class="news"> <a href="#" class="news_link-img"> <img src="img/banner and news/news1.png" alt="news1" class="news_img"> </a> </div>
+            <div class="news"> <a href="#" class="news_link-img"> <img src="img/banner and news/news2.png" alt="news2" class="news_img"> </a> </div>
+            <div class="news"> <a href="#" class="news_link-img"> <img src="img/banner and news/news3.png" alt="news3" class="news_img"> </a> </div>
+            <div class="news"> <a href="#" class="news_link-img"> <img src="img/banner and news/news4.png" alt="news4" class="news_img"> </a> </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- section banner and news ends -->
+
+<!-- section menu starts -->
+
+<section class="menu" id="menu">
+    <h3 class="menu-section_title">Top “Manhattan” menu</h3>
+    <h2 class="menu_title">Кухня</h2>
+
+    <div class="menu-gallery_wrapper swiper">
+        <div class="swiper-wrapper">
+            
+        </div>
+    </div>
+
+    <div class="menu_gallery-button-block">
+        <button type="button" class="menu_gallery_button-left">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3839 17.9548C13.6183 17.7204 13.7499 17.4025 13.7499 17.0711C13.7499 16.7396 13.6183 16.4217 13.3839 16.1873L7.19643 9.99982L13.3839 3.81232C13.6116 3.57656 13.7376 3.26081 13.7348 2.93306C13.7319 2.60532 13.6005 2.2918 13.3687 2.06004C13.1369 1.82828 12.8234 1.69682 12.4957 1.69398C12.1679 1.69113 11.8522 1.81712 11.6164 2.04482L4.54518 9.11607C4.31084 9.35048 4.1792 9.66836 4.1792 9.99982C4.1792 10.3313 4.31084 10.6492 4.54518 10.8836L11.6164 17.9548C11.8508 18.1892 12.1687 18.3208 12.5002 18.3208C12.8316 18.3208 13.1495 18.1892 13.3839 17.9548Z" fill="white"/>
+            </svg>       
+        </button>
+        <button type="button" class="menu_gallery_button-right">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.61607 17.9548C6.38173 17.7204 6.25008 17.4025 6.25008 17.0711C6.25008 16.7396 6.38173 16.4217 6.61607 16.1873L12.8036 9.99982L6.61607 3.81232C6.38837 3.57656 6.26238 3.26081 6.26523 2.93306C6.26807 2.60532 6.39953 2.2918 6.63129 2.06004C6.86305 1.82828 7.17657 1.69682 7.50432 1.69398C7.83206 1.69113 8.14782 1.81712 8.38357 2.04482L15.4548 9.11607C15.6892 9.35048 15.8208 9.66836 15.8208 9.99982C15.8208 10.3313 15.6892 10.6492 15.4548 10.8836L8.38357 17.9548C8.14916 18.1892 7.83127 18.3208 7.49982 18.3208C7.16836 18.3208 6.85048 18.1892 6.61607 17.9548Z" fill="white"/>
+            </svg>
+        </button>
+    </div>
+</section>
+
+<!-- section menu ends -->
+
+<!-- section about events starts -->
+
+<section class="events_inf">
+
+    <div class="events_inf-img-block active-img-adaptive">
+        <img src="img/Events Inf/Events Inf.png" alt="events" class="events_inf-img">
+    </div>
+
+    <div class="events_block-wrapper">
+        <div class="events_block">
+            <h3 class="events_title-block">Top “Manhattan” menu</h3>
+            <h2 class="events_title">Банкеты</h2>
+            <p class="events-inf">
+                Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet. 
+            </p>
+            <p class="events-inf">
+                Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris. 
+            </p>
+            <p class="events-inf">
+                Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.
+            </p>
+        </div>
+    
+        <div class="events_inf-img-block active-img">
+            <img src="img/Events Inf/Events Inf.png" alt="events" class="events_inf-img">
+        </div>
+    
+        <div class="events_block">
+            <h3 class="events_title-block">Top “Manhattan” menu</h3>
+            <h2 class="events_title">Туристы</h2>
+            <p class="events-inf">
+                Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et aliquet. 
+            </p>
+            <p class="events-inf">
+                Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in pellentesque mauris. 
+            </p>
+            <p class="events-inf">
+                Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!-- section about events ends -->
+
+<!-- footer starts -->
+
+<footer class="footer" id="contacts">
+    <h3 class="footer_contacts-title">Top “Manhattan” menu</h3>
+    <h2 class="contacts-title">контакты</h2>
+    <div class="contacts-wrapper">
+        <div class="contacts_inf">
+            <div class="address-block">
+                <h4 class="contacts_inf-address-title contact-titles">Адрес</h4>
+                <p class="contacts_inf-address contact-titles_inf">Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)</p>
+            </div>
+            <div class="phone-block">
+                <h4 class="contacts_inf-phone-title contact-titles">телефон</h4>
+                <p class="contacts_inf-phone contact-titles_inf">+7 (812) 713-1945</p>
+            </div>
+            <div class="work_time-block">
+                <h4 class="contacts_inf-work_time-title contact-titles">режим работы</h4>
+                <p class="contacts_inf-work_time contact-titles_inf">Ежедневно с 12:00 до 06:00</p>
+            </div>
+            <hr>
+            <div class="director-block">
+                <h4 class="contacts_inf-director-title contact-titles">директор</h4>
+                <p class="contacts_inf-director contact-titles_inf">Лидия Эмильевна, +7(921) 963-55-50</p>
+            </div>
+            <div class="art-director-block">
+                <h4 class="contacts_inf-art-director-title contact-titles">арт-директор</h4>
+                <p class="contacts_inf-art-director contact-titles_inf">Илиния Ионашко, +7(981) 989-43-30</p>
+            </div>
+        </div>
+        <div class="contacts_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.4054159137274!2d30.329309799999994!3d59.92541469999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631aa7ab1c033%3A0x86642f7bdaafc344!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgOTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTAyMw!5e0!3m2!1sru!2s!4v1711209580817!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</footer>
+
+<!-- footer ends -->
+
+</body>
+</html>
